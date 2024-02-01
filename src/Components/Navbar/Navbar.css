@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Navigation{
+    min-height: 8vh;
+    background-color: #333;
+    box-shadow: 0 5px 10px rgba(0,0 , 0, .1);
+    padding: 0px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+
+
+
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #fff;
+    font-family: system-ui;
+}
+
+.navBar ul{
+    list-style: none;
+
+}
+
+.navBar ul li{
+    position: relative;
+    float: left;
+}
+.navBar ul li a{
+
+    font-size: 20px;
+    padding: 20px;
+    color:#fff;
+    display: block;
+}
